@@ -23,12 +23,6 @@ class EmpleadoArtista(Persona, Artista):
 
     def mostrar_informacion(self):
         print(f"Soy {self.nombre}, tengo {self.edad} años, soy de {self.nacionalidad}, mi habilidad es {self.habilidad}, gano {self.salario} y trabajo en {self.empresa}")
- 
-
-
-
-
-
 
 roberto = EmpleadoArtista("Roberto", 30, "Mexicano", "Pintura", 50000, "Empresa X")
 roberto.hablar()
